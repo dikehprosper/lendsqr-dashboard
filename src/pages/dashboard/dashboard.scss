@@ -1,0 +1,15 @@
+.dashboard {
+  display: flex;
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  max-height: 1384px;
+  min-width: auto;
+  max-width: 1440px;
+
+  .dashboardContainer {
+    margin-left: 235px;
+    margin-top: 60px;
+    padding: 40px;
+    width: 100%;
+  }
+}
