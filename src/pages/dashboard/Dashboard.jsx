@@ -4,7 +4,7 @@ import Sidebar from "./../../components/sidebar/Sidebar";
 import Navbar from "./../../components/navbar/Navbar";
 import Widgets from "./../../components/widgets/widgets";
 import Header from './../../components/header/Header';
-import Table from "../../components/tablelist/TableList";
+import TableList from "../../components/tablelist/TableList";
 
 function Dashboard() {
   return (
@@ -14,7 +14,7 @@ function Dashboard() {
       <div className="dashboardContainer">
         <Header />
         <Widgets />
-        <Table />
+        <TableList />
       </div>
     </div>
   );

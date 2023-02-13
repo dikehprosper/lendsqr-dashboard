@@ -1,6 +1,10 @@
+
+
+
 .dashboard {
   display: flex;
-  background-color: #e5e5e5;
+  overflow-y: hidden;
+ 
   min-height: 100vh;
   max-height: 1384px;
   min-width: auto;
@@ -11,5 +15,8 @@
     margin-top: 60px;
     padding: 40px;
     width: 100%;
+    height:auto ;
+    overflow-y: hidden;
+
   }
 }
