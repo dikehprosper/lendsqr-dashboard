@@ -4,6 +4,7 @@ import "./widgets.scss";
 function Widgets() {
   return (
     <div className="widgets">
+      <div className="widgets-class-one">
       <div className="widget">
         <div className="first">
           <svg
@@ -70,6 +71,8 @@ function Widgets() {
         <div className="center">ACTIVE USERS</div>
         <div className="end">2,453</div>
       </div>
+      </div>
+      <div className="widgets-class-two">
       <div className="widget">
         <div className="first">
           <svg
@@ -187,6 +190,7 @@ function Widgets() {
         </div>
         <div className="center">USERS WITH SAVINGS</div>
         <div className="end">102,453</div>
+      </div>
       </div>
     </div>
   );
