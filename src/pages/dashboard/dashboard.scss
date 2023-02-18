@@ -19,4 +19,13 @@
     overflow-y: hidden;
 
   }
+
+  @media (max-width: 1156px) {
+  
+      .dashboardContainer{
+        margin-left: 0px;
+        
+      }
+    
+  }
 }
