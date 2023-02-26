@@ -5,16 +5,18 @@ import Navbar from "./../../components/navbar/Navbar";
 import Widgets from "./../../components/widgets/widgets";
 import Header from './../../components/header/Header';
 import TableList from "../../components/tablelist/TableList";
+import Sidebar2 from "../../components/sidebar2/Sidebar2";
 
-function Dashboard() {
+function Dashboard(props) {
   return (
     <div className="dashboard">
-      <Sidebar />
       <Navbar />
+      <Sidebar />
+      <Sidebar2 />
       <div className="dashboardContainer">
         <Header />
         <Widgets />
-        <TableList />
+        <TableList files={props.files} />
       </div>
     </div>
   );
