@@ -1,0 +1,25 @@
+.user-details{
+    display: flex;
+    overflow-y: auto;
+    min-height: 100vh;
+    max-height: auto;
+    min-width: auto;
+    max-width: 1440px;
+    position: relative;
+
+    .user-details-Container{
+        margin-left: 235px;
+        margin-top: 60px;
+        padding: 40px;
+        width: 100%;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    @media (max-width: 1156px) {
+        .user-details-Container {
+          margin-left: 0px;
+          margin-top: 65px;
+        }
+      }
+}
